@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
 
-    <div className ='bg-[#000000]  bg-black/70 backdrop-blur-md px-9  text-white flex justify-between items-center fixed w-full'>
+    <div className ='bg-[#000000]  bg-black/70 backdrop-blur-md px-9  text-white flex justify-between items-center fixed w-screen'>
 
        <div>
        <a href="#">
@@ -12,7 +12,7 @@ const Navbar = () => {
        <p className='text-sm md:-my-10 -my-8'>The Shoe Company</p>
        </div>
 
-       <nav className='flex  md:space-x-10 space-x-4  items-center   font-bold md:text-2xl text-base  sm:block hidden  '>
+       <nav className='flex  lg:space-x-10 md:space-x-4 space-x-2   items-center   font-bold lg:text-[28px]  md:text-[20px] my-8 text-base  sm:block hidden  '>
         <a href="#">Home</a>
         <a href="#howitworks">How It Works?</a>
         <a href="#aboutus">About</a>
