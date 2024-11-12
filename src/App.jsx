@@ -8,7 +8,7 @@ import Contact from './Components/Contact';
 import { useState } from 'react';
 
 function App() {
-  const [show, setShow] = useState(1);
+  const [show, setShow] = useState(0);
   return (
     <div className="bg-[#000000] w-full h-full text-white">
       <Navbar show = {show} setShow= {setShow} />
