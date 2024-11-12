@@ -3,7 +3,7 @@ import React from 'react'
 const Review = () => {
   return (
     <div className='bg-[url("/review_background.png")] w-screen h-[1024px] flex  gap-20 flex-col pt-20  ' id='testimonials'>
-      <h1  className='md:max-w-[786px] max-w-[300px]  font-bold md:text-[50px] text-xl text-center self-center mt-0 pt-0 '>What People are saying about THE SHOE COMPANY ?</h1>
+      <h1  className='md:max-w-[786px] max-w-[300px] lg:leading-none font-bold md:text-[50px] text-xl text-center self-center mt-0 pt-0 '>What People are saying about THE SHOE COMPANY ?</h1>
       <div className='flex md:justify-around md:flex-row flex-col '>
 
         <div className='flex flex-col m-auto ' >

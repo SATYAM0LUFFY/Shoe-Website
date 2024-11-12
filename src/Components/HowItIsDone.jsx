@@ -24,12 +24,12 @@ const HowItIsDone = () => {
       <div>
 
         <arrow>
-          <img src="/arrow2.png " className='h-40  top-12 absolute left-[220px] ' alt="" />
+          <img src="/arrow2.png " className='lg:h-40 h-32 lg:block hidden top-6 lg:top-12 absolute left-[130px] lg:left-[220px] lg:rotate-0 rotate-12  ' alt="" />
         </arrow>
 
         <div className='max-w-60  '>
-          <h3  className='font-bold lg:text-[32px] absolute left-[120px] lg:left-[180px] -top-32 lg:-top-20 text-2xl '>THE HEEL</h3>
-          <p className='text-[20px] max-w-60  absolute left-[180px] -top-10'>The heel is well-built, has appropriate elevation and is not too rigid.</p>
+          <h3  className='font-bold lg:text-[32px] absolute lg:block hidden left-[120px] lg:left-[180px] -top-32 lg:-top-20 text-2xl '>THE HEEL</h3>
+          <p className='text-[20px] max-w-60  absolute lg:left-[180px] lg:block hidden lg:-top-10 -top-24  left-[120px]'>The heel is well-built, has appropriate elevation and is not too rigid.</p>
         </div>
 
       </div>
@@ -37,12 +37,12 @@ const HowItIsDone = () => {
       <div>
 
       <arrow>
-        <img src="/arrow-3.png " className='h-40  top-64 absolute left-[420px]' alt="" />
+        <img src="/arrow-3.png " className='h-40  top-64 absolute left-[420px] lg:block hidden' alt="" />
       </arrow>
 
       <div className='max-w-60  '>
-        <h3  className='font-bold text-[32px] absolute left-[250px] top-84'>TRACTION</h3>
-        <p className='text-[20px] max-w-60  absolute left-[250px] top-[350px]'>The shoe has good traction and doesn't slip easily.</p>
+        <h3  className='font-bold text-[32px] absolute left-[250px] top-84 lg:block hidden'>TRACTION</h3>
+        <p className='text-[20px] max-w-60  absolute left-[250px] top-[350px] lg:block hidden'>The shoe has good traction and doesn't slip easily.</p>
       </div>
 
       </div>
