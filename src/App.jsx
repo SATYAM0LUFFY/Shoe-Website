@@ -5,12 +5,14 @@ import HowItIsDone from './Components/HowItIsDone';
 import AboutUs from './Components/AboutUs';
 import Review from './Components/Review';
 import Contact from './Components/Contact';
+import { useState } from 'react';
 
 function App() {
+  const [show, setShow] = useState(1);
   return (
     <div className="bg-[#000000] w-full h-full text-white">
-      <Navbar />
-      <Hero />
+      <Navbar show = {show} setShow= {setShow} />
+      <Hero  />
       <HowItIsDone />
       <AboutUs />
       <Review />
