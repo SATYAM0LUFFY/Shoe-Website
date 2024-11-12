@@ -8,15 +8,15 @@ const Review = () => {
 
         <div className='flex flex-col m-auto ' >
             <img className='rounded-full md:w-72 md:h-72 w-56 h-56 ' src="/person2.png" alt="" />
-            <p className='md:max-w-80 max-w-60 mb-8 mt-4'>“Looking for shoes that are built just for you? THE SHOE COMPANY is the way to go. Love the design and build quality.”</p>
+            <p className='md:max-w-80 max-w-60 mb-8 mt-4 text-center'>“Looking for shoes that are built just for you? THE SHOE COMPANY is the way to go. Love the design and build quality.”</p>
         </div>
         <div className='flex flex-col m-auto ' >
             <img className=' rounded-full md:w-72 md:h-72 w-56 h-56' src="/person1.png" alt="" />
-            <p className='md:max-w-80 max-w-60 mb-8 mt-4'>“I love the shoes, the quality, and everyting. They are worth the investment!”</p>
+            <p className='md:max-w-80 max-w-60 mb-8 mt-4 text-center'>“I love the shoes, the quality, and everyting. They are worth the investment!”</p>
         </div>
         <div className='flex flex-col m-auto ' >
             <img className='rounded-full md:w-72 md:h-72 w-56 h-56 ' src="/person3.png" alt="" />
-            <p className='md:max-w-80 max-w-60 mb-8 mt-4'>“They make the best and forever lasting shoes. Superb fit and confort is literally the next level. Much recommended!”</p>
+            <p className='md:max-w-80 max-w-60 mb-8 mt-4 text-center'>“They make the best and forever lasting shoes. Superb fit and confort is literally the next level. Much recommended!”</p>
         </div>
         
         
