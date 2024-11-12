@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = ({show,setShow}) => {
   return (
 
-    <div className ='bg-[#000000]  bg-black/70 backdrop-blur-md px-9  text-white flex justify-between items-center fixed w-screen'>
+    <div className =' bg-[#000000]  bg-black/70 backdrop-blur-md px-9  text-white flex justify-between items-center fixed w-screen'>
 
        <div>
        <a href="#">

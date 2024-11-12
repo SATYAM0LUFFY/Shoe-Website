@@ -10,7 +10,7 @@ import { useState } from 'react';
 function App() {
   const [show, setShow] = useState(0);
   return (
-    <div className="bg-[#000000] w-full h-full text-white">
+    <div className="bg-[#000000] w-full h-full text-white App overflow-x-hidden">
       <Navbar show = {show} setShow= {setShow} />
       <Hero  />
       <HowItIsDone />

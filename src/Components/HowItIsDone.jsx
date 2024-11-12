@@ -2,7 +2,7 @@ import React from 'react'
 
 const HowItIsDone = () => {
   return (
-    <div  id='howitworks' className=' scroll-mt-24'>
+    <div  id='howitworks' className=' w-screen scroll-mt-24'>
       <h2 className='font-bold md:text-4xl md:max-w-md max-w-80 mx-auto  mt-16  px-0  md:mx-auto text-2xl ' >  Have they finally made the perfect workout shoe?</h2>
     <div className='relative   mt-[150px] w-screen'>
 

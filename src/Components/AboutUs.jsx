@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className='flex justify-evenly mt-40 mb-48 w-full pt-20 scroll-mt-20 md:flex-row flex-col' >
+    <div className=' w-screen flex justify-evenly mt-40 mb-48  pt-20 scroll-mt-20 md:flex-row flex-col' >
         <div className='bg-[url("/about-us-background1.png")] md:h-[500px] h-[300px] '>
         <img src="/aboutus.png" className='md:h-screen h-[350px] ' alt="" />
         </div>

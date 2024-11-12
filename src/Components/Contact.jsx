@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='h-full flex justify-center mt-40 scroll-mt-36 lg:flex-row flex-col ' id='contactus'>
+    <div className='w-screen  h-full flex justify-center mt-40 scroll-mt-36 lg:flex-row flex-col ' id='contactus'>
       <div>
         <h1 className='text-4xl font-bold mt-40 text-center'>Contact Us</h1>
         <p className='max-w-64 lg:text-[24px] text-center text-xl m-auto pb-8 '>THE SHOE COMPANY, Dallas, Texas, USA +1 5590 1120 9910</p>
